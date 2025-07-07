@@ -13,21 +13,8 @@ This repository contains the complete code, model training pipeline, and visuali
 ## 📂 Structure
 
 - `data/`: Processed audio features & labels
-- `scripts/`: Feature extraction & training code
 - `notebooks/`: Analysis & visualizations
-- `models/`: Saved weights
-- `figures/`: Architecture & t-SNE plots
 - `report/`: Final research report PDF
-
-## 📊 Results Snapshot
-
-| Model                  | R² (Valence) | R² (Arousal) |
-|------------------------|--------------|--------------|
-| CNN Baseline           | 0.554        | 0.483        |
-| CNN + SE + Temporal    | 0.464        | 0.527        |
-| CNN + GRU              | 0.460        | 0.512        |
-| CNN + GRU + Attention  | 0.456        | 0.499        |
-| **PANNs + MLP (ours)** | **0.457**    | **0.667**    |
 
 ## 📦 Setup
 
