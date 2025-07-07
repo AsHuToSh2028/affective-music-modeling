@@ -12,7 +12,6 @@ This repository contains the complete code, model training pipeline, and visuali
 
 ## 📂 Structure
 
-- `data/`: Processed audio features & labels
 - `notebooks/`: Analysis & visualizations
 - `report/`: Final research report PDF
 
